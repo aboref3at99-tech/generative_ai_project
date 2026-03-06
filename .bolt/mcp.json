@@ -9,7 +9,7 @@
     "miro": {
       "enabled": true
     },
-    "context7": {
+    "sentry": {
       "enabled": true
     }
   }
