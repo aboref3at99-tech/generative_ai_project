@@ -1,13 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import {
-  LayoutDashboard,
-  MessageSquare,
-  History,
-  BarChart3,
-  FileText,
-  Bot,
-  Zap,
-} from 'lucide-react';
+import { LayoutDashboard, MessageSquare, History, ChartBar as BarChart3, FileText, Bot, Zap } from 'lucide-react';
 
 const navItems = [
   { to: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },

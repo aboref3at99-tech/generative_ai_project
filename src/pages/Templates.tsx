@@ -1,16 +1,6 @@
 import { useEffect, useState } from 'react';
 import { supabase, type PromptTemplate } from '../lib/supabase';
-import {
-  FileText,
-  Plus,
-  Trash2,
-  Edit3,
-  Copy,
-  Check,
-  X,
-  RefreshCw,
-  Tag,
-} from 'lucide-react';
+import { FileText, Plus, Trash2, CreditCard as Edit3, Copy, Check, X, RefreshCw, Tag } from 'lucide-react';
 
 const CATEGORIES = ['all', 'general', 'development', 'writing', 'classification', 'chaining'];
 

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { supabase, type ApiUsage } from '../lib/supabase';
-import { Zap, DollarSign, TrendingUp, BarChart3, RefreshCw, Calendar } from 'lucide-react';
+import { Zap, DollarSign, TrendingUp, ChartBar as BarChart3, RefreshCw, Calendar } from 'lucide-react';
 
 type ModelStat = {
   model: string;

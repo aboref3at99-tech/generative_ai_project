@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { supabase, type Message } from '../lib/supabase';
-import { Send, Bot, User, Loader2, Plus, Trash2, ChevronDown } from 'lucide-react';
+import { Send, Bot, User, Loader as Loader2, Plus, Trash2, ChevronDown } from 'lucide-react';
 
 const MODELS = [
   { value: 'claude-3-5-sonnet-20241022', label: 'Claude 3.5 Sonnet', provider: 'anthropic' },
