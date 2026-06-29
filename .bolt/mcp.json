@@ -14,6 +14,12 @@
     },
     "granola": {
       "enabled": true
+    },
+    "github": {
+      "enabled": true
+    },
+    "context7": {
+      "enabled": true
     }
   }
 }
